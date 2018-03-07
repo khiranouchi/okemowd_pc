@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>prog.rightmmm.okemowd</groupId>
+  <artifactId>okemowd_pc</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>org</groupId>
+  		<artifactId>jaudiotagger</artifactId>
+  		<version>2.2.6</version>
+  		<scope>system</scope>
+  		<systemPath>${basedir}/lib/jaudiotagger-2.2.6-SNAPSHOT.jar</systemPath>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.atilika</groupId>
+  		<artifactId>kuromoji</artifactId>
+  		<version>0.7.7</version>
+  		<scope>system</scope>
+  		<systemPath>${basedir}/lib/kuromoji-0.7.7.jar</systemPath>
+  	</dependency>
+	<dependency>
+	    <groupId>com.ibm.icu</groupId>
+	    <artifactId>icu4j</artifactId>
+	    <version>60.2</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.xerial</groupId>
+	    <artifactId>sqlite-jdbc</artifactId>
+	    <version>3.21.0.1</version>
+	</dependency>
+  </dependencies>
+</project>

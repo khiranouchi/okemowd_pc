@@ -1,0 +1,7 @@
+.classpath
+.project
+.settings
+*.db
+*.sqlite3
+target
+lib
